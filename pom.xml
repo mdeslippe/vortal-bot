@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.radicaldevs</groupId>
 	<artifactId>vortalbot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>Vortal Bot</name>
 	<description>A custom discord bot built for the radical development community.</description>
 	<build>
@@ -34,6 +34,13 @@
 			</plugin>
 		</plugins>
 	</build>
+	<repositories>
+		<!-- GitHub's Repository -->
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<!-- JDA (Java Discord API) Dependency -->
 		<dependency>
@@ -41,11 +48,11 @@
 			<artifactId>JDA</artifactId>
 			<version>5.0.0-alpha.13</version>
 		</dependency>
-		<!-- Yaml Conversion Utility -->
+		<!-- Yaml API -->
 		<dependency>
-			<groupId>org.yaml</groupId>
-			<artifactId>snakeyaml</artifactId>
-			<version>1.30</version>
+			<groupId>me.carleslc.Simple-YAML</groupId>
+			<artifactId>Simple-Yaml</artifactId>
+			<version>1.8</version>
 		</dependency>
 	</dependencies>
 </project>
